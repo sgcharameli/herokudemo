@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import es.sergio.herokudemo.controladores.vo.MonitorVO;
 
 @Controller
-@RequestMapping("monitor")
+@RequestMapping("/monitor")
 public class Monitor {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(Monitor.class);
